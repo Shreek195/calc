@@ -5,8 +5,9 @@ def main():
     num2 = float(input("Enter the second number: "))
 
     addition = num1 + num2
-    
-    print(f"Addition: {num1} + {num2} = {addition}")
+    subtraction = num1 - num2
+
+    print(f"Subtraction: {num1} - {num2} = {subtraction}")
 
 
 if __name__ == "__main__":
